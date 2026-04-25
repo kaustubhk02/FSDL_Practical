@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Profile-Viewer</h1>
+    <div>
+        <input id="name" type="text", placeholder="Name" oninput="handler()">
+        <input id="job" type="text", placeholder="Job Title" oninput="handler()">
+        <textarea id="bio" rows="4" cols="50" placeholder="Bio..." oninput="handler()"></textarea>
+    </div>
+
+     <div id="profile-card">
+        <div id="photo"></div>
+        <h1 id="name1">Name</h1>
+        <h2>Job Title</h2>
+        <h3>Bio</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+table{
+    border-collapse: collapse;
+}
+input{
+    height: 50px;
+    width: 250px;
+}
+button{
+    height: 50px;
+    width: 50px;
+}

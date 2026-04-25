@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.light{
+    background-color: white;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
