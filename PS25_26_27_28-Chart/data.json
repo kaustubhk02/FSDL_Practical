@@ -1,0 +1,20 @@
+{
+  "city": "Pune",
+  "forecast": [
+    {
+      "day": "Monday",
+      "temp": 30,
+      "condition": "Sunny"
+    },
+    {
+      "day": "Tuesday",
+      "temp": 28,
+      "condition": "Rainy"
+    },
+    {
+      "day": "Wednesday",
+      "temp": 31,
+      "condition": "Cloudy"
+    }
+  ]
+}
