@@ -41,7 +41,7 @@ button{
     position: absolute;
     bottom: 20px;
     left: 50px;
-    right: 50px;
+    /* right: 50px; */
 }
 
 img {
@@ -64,4 +64,19 @@ img {
 }
 .card:hover .overlay {
     opacity: 1;
+}
+
+.category{
+    background-color: rgb(32, 30, 30);
+    color: beige;
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    position: absolute;
+    bottom: 20px;
+    /* left: 50px; */
+    right: 50px;
 }
