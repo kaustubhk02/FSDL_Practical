@@ -17,7 +17,8 @@ addbut.addEventListener('click', ()=>{
     l2.textContent = input2;
 
     l2.setAttribute("id", input2);
-    li.setAttribute("id", input)
+    li.setAttribute("id", input);
+    
     li.setAttribute("draggable", "true"); /* Make draggable */
 
     let del = document.createElement('button');
