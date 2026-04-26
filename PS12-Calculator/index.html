@@ -7,39 +7,38 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div>
-      <table>
-        <tr>
-          <input value="0" type="text" placeholder="0" />
-        </tr>
-        <tr>
-          <td><button onclick="evaluate()">1</button></td>
-          <td><button onclick="evaluate()">2</button></td>
-          <td><button onclick="evaluate()">3</button></td>
-          <td><button onclick="evaluate()">+</button></td>
-          <td><button onclick="evaluate()">-</button></td>
-        </tr>
-        <tr>
-          <td><button onclick="evaluate()">4</button></td>
-          <td><button onclick="evaluate()">5</button></td>
-          <td><button onclick="evaluate()">6</button></td>
-          <td><button onclick="evaluate()">*</button></td>
-          <td><button onclick="evaluate()">/</button></td>
-        </tr>
-        <tr>
-          <td><button onclick="evaluate()">7</button></td>
-          <td><button onclick="evaluate()">8</button></td>
-          <td><button onclick="evaluate()">9</button></td>
-          <td><button onclick="evaluate()">%</button></td>
-          <td><button onclick="evaluate()">.</button></td>
-        </tr>
-        <tr>
-          <td><button onclick="evaluate()">AC</button></td>
-          <td><button onclick="evaluate()">DEL</button></td>
-          <td><button onclick="evaluate()">0</button></td>
-          <td><button onclick="evaluate()">=</button></td>
-        </tr>
-      </table>
+    <div class="calculator">
+      <input id="display" value="" type="text" readonly />
+
+      <div class="row">
+        <button onclick="press('1')">1</button>
+        <button onclick="press('2')">2</button>
+        <button onclick="press('3')">3</button>
+        <button onclick="press('+')">+</button>
+        <button onclick="press('-')">-</button>
+      </div>
+
+      <div class="row">
+        <button onclick="press('4')">4</button>
+        <button onclick="press('5')">5</button>
+        <button onclick="press('6')">6</button>
+        <button onclick="press('*')">*</button>
+        <button onclick="press('/')">/</button>
+      </div>
+
+      <div class="row">
+        <button onclick="press('7')">7</button>
+        <button onclick="press('8')">8</button>
+        <button onclick="press('9')">9</button>
+        <button onclick="press('%')">%</button>
+        <button onclick="press('.')">.</button>
+      </div>
+
+      <div class="row">
+        <button onclick="reset()">AC</button>
+        <button onclick="press('0')">0</button>
+        <button onclick="calculate()">=</button>
+      </div>
     </div>
 
     <script src="script.js"></script>

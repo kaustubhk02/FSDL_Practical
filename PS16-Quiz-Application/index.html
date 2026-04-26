@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Quiz Application</h2>
+
+<div id="quiz">
+    <div class="question">
+        <p>What is HTML?</p>
+        <label><input type="radio" name="q0" value="Programming Language"> Programming Language</label><br>
+        <label><input type="radio" name="q0" value="Markup Language"> Markup Language</label><br>
+        <label><input type="radio" name="q0" value="Database"> Database</label><br><br>
+    </div>
+        
+    <div class="question">
+        <p>What is CSS used for?</p>
+        <label><input type="radio" name="q1" value="Styling"> Styling</label><br>
+        <label><input type="radio" name="q1" value="Logic"> Logic</label><br>
+        <label><input type="radio" name="q1" value="Database"> Database</label><br><br>
+    </div>
+
+    <div class="question">
+        <p>What is JavaScript?</p>
+        <label><input type="radio" name="q2" value="Styling Tool"> Styling Tool</label><br>
+        <label><input type="radio" name="q2" value="Programming Language"> Programming Language</label><br>
+        <label><input type="radio" name="q2" value="Browser"> Browser</label><br><br>
+    </div>
+
+</div>
+
+<button onclick="submitQuiz()">Submit</button>
+
+<h3 id="result"></h3>
+
+<script src="script.js"></script>
+
+</body>
+</html>

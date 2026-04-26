@@ -1,0 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#timer{
+    display: flex;
+}

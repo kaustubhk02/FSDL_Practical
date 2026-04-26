@@ -1,15 +1,28 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
+
 table{
     border-collapse: collapse;
 }
+
 input{
     height: 50px;
     width: 250px;
+    text-align: right;   /* better alignment */
+    font-size: 18px;     /* readability */
 }
+
 button{
     height: 50px;
     width: 50px;
+    cursor: pointer;     /* better UX */
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
 }

@@ -11,11 +11,8 @@ const cart = document.getElementById("cart");
 // 2. Render Function
 function render() {
     cart.innerHTML = ""; // clear old
-
     products.forEach((product, index) => {
-
         let row = document.createElement("tr");
-
         row.innerHTML = `
             <td>${product.name}</td>
             <td>
@@ -25,7 +22,6 @@ function render() {
             </td>
             <td>${product.price * product.qty}</td>
         `;
-
         cart.appendChild(row);
     });
 }
